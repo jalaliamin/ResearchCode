@@ -1,4 +1,4 @@
-# paper Name: Object Type Clustering using Markov Directly-Follow Multigraph in Object-Centric Process Mining
+# Object Type Clustering using Markov Directly-Follow Multigraph in Object-Centric Process Mining
 
 To run the code, you need to install libraries that are mentioned in requirements.txt. You can do that by:
 
