@@ -1,6 +1,6 @@
 # ResearchCode
 
-This repository contains my research code. 
+This repository contains my research code from "2022-06-18". 
 
 ## Papers
 You can find the files related to different papers below.
