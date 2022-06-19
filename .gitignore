@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# datasets
+o2c.jsonocel
+p2p.jsonocel
