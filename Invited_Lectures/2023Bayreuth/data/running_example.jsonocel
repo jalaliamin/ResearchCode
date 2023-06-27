@@ -1,0 +1,230 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "Order",
+      "Item"
+    ],
+    "ocel:attribute-names": [
+      "Customer"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "1": {
+      "ocel:activity": "create_order",
+      "ocel:timestamp": "2023-01-10T08:15:00",
+      "ocel:vmap": {
+        "Customer": "Amin"
+      },
+      "ocel:omap": [
+        "o1"
+      ]
+    },
+    "2": {
+      "ocel:activity": "pick_item",
+      "ocel:timestamp": "2023-01-10T08:20:00",
+      "ocel:vmap": {
+        "Customer": "Amin"
+      },
+      "ocel:omap": [
+        "o1",
+		"i1"
+      ]
+    },
+    "3": {
+      "ocel:activity": "confirm_item",
+      "ocel:timestamp": "2023-01-10T08:22:00",
+      "ocel:vmap": {
+        "Customer": "Amin"
+      },
+      "ocel:omap": [
+        "o1",
+		"i1"
+      ]
+    },
+    "4": {
+      "ocel:activity": "confirm_order",
+      "ocel:timestamp": "2023-01-10T08:50:00",
+      "ocel:vmap": {
+        "Customer": "Amin"
+      },
+      "ocel:omap": [
+        "o1",
+		"i1"
+      ]
+    },
+    "5": {
+      "ocel:activity": "create_order",
+      "ocel:timestamp": "2023-01-11T08:15:00",
+      "ocel:vmap": {
+        "Customer": "Agnes"
+      },
+      "ocel:omap": [
+        "o2"
+      ]
+    },
+    "6": {
+      "ocel:activity": "pick_item",
+      "ocel:timestamp": "2023-01-11T08:20:00",
+      "ocel:vmap": {
+        "Customer": "Agnes"
+      },
+      "ocel:omap": [
+        "o2",
+		"i2"
+      ]
+    },
+    "7": {
+      "ocel:activity": "confirm_item",
+      "ocel:timestamp": "2023-01-11T08:22:00",
+      "ocel:vmap": {
+        "Customer": "Agnes"
+      },
+      "ocel:omap": [
+        "o2",
+		"i2"
+      ]
+    },
+    "8": {
+      "ocel:activity": "pick_item",
+      "ocel:timestamp": "2023-01-11T08:25:00",
+      "ocel:vmap": {
+        "Customer": "Agnes"
+      },
+      "ocel:omap": [
+        "o2",
+		"i3"
+      ]
+    },
+    "9": {
+      "ocel:activity": "confirm_item",
+      "ocel:timestamp": "2023-01-11T08:27:00",
+      "ocel:vmap": {
+        "Customer": "Agnes"
+      },
+      "ocel:omap": [
+        "o2",
+		"i3"
+      ]
+    },
+    "10": {
+      "ocel:activity": "confirm_order",
+      "ocel:timestamp": "2023-01-11T08:29:00",
+      "ocel:vmap": {
+        "Customer": "Agnes"
+      },
+      "ocel:omap": [
+        "o2",
+		"i2",
+		"i3"
+      ]
+    },
+    "11": {
+      "ocel:activity": "create_order",
+      "ocel:timestamp": "2023-01-11T08:15:00",
+      "ocel:vmap": {
+        "Customer": "Linda"
+      },
+      "ocel:omap": [
+        "o3"
+      ]
+    },
+    "12": {
+      "ocel:activity": "pick_item",
+      "ocel:timestamp": "2023-01-11T08:20:00",
+      "ocel:vmap": {
+        "Customer": "Linda"
+      },
+      "ocel:omap": [
+        "o3",
+		"i4"
+      ]
+    },
+    "13": {
+      "ocel:activity": "pick_item",
+      "ocel:timestamp": "2023-01-11T08:21:00",
+      "ocel:vmap": {
+        "Customer": "Linda"
+      },
+      "ocel:omap": [
+        "o3",
+		"i5"
+      ]
+    },
+    "14": {
+      "ocel:activity": "confirm_item",
+      "ocel:timestamp": "2023-01-11T08:22:00",
+      "ocel:vmap": {
+        "Customer": "Linda"
+      },
+      "ocel:omap": [
+        "o3",
+		"i4"
+      ]
+    },
+    "15": {
+      "ocel:activity": "confirm_item",
+      "ocel:timestamp": "2023-01-11T08:23:00",
+      "ocel:vmap": {
+        "Customer": "Linda"
+      },
+      "ocel:omap": [
+        "o3",
+		"i5"
+      ]
+    },
+    "16": {
+      "ocel:activity": "confirm_order",
+      "ocel:timestamp": "2023-01-11T08:29:00",
+      "ocel:vmap": {
+        "Customer": "Linda"
+      },
+      "ocel:omap": [
+        "o3",
+		"i4",
+		"i5"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "o1": {
+      "ocel:type": "Order",
+      "ocel:ovmap": {}
+    },
+    "o2": {
+      "ocel:type": "Order",
+      "ocel:ovmap": {}
+    },
+    "o3": {
+      "ocel:type": "Order",
+      "ocel:ovmap": {}
+    },
+    "i1": {
+      "ocel:type": "Item",
+      "ocel:ovmap": {}
+    },
+    "i2": {
+      "ocel:type": "Item",
+      "ocel:ovmap": {}
+    },
+    "i3": {
+      "ocel:type": "Item",
+      "ocel:ovmap": {}
+    },
+    "i4": {
+      "ocel:type": "Item",
+      "ocel:ovmap": {}
+    },
+    "i5": {
+      "ocel:type": "Item",
+      "ocel:ovmap": {}
+    }
+  }
+}
