@@ -1,0 +1,6 @@
+pandas
+cvxopt==1.3.0.1
+pm4py
+processmining
+jupyter
+jupyterlab

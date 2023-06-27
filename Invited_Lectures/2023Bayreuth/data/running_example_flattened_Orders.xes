@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="o1" />
+		<string key="ocel:type" value="Order" />
+		<event>
+			<string key="ocel:eid" value="1" />
+			<date key="time:timestamp" value="2023-01-10T08:15:00" />
+			<string key="concept:name" value="create_order" />
+			<string key="Customer" value="Amin" />
+			<date key="start_timestamp" value="2023-01-10T08:15:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="2" />
+			<date key="time:timestamp" value="2023-01-10T08:20:00" />
+			<string key="concept:name" value="pick_item" />
+			<string key="Customer" value="Amin" />
+			<date key="start_timestamp" value="2023-01-10T08:20:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="3" />
+			<date key="time:timestamp" value="2023-01-10T08:22:00" />
+			<string key="concept:name" value="confirm_item" />
+			<string key="Customer" value="Amin" />
+			<date key="start_timestamp" value="2023-01-10T08:22:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="4" />
+			<date key="time:timestamp" value="2023-01-10T08:50:00" />
+			<string key="concept:name" value="confirm_order" />
+			<string key="Customer" value="Amin" />
+			<date key="start_timestamp" value="2023-01-10T08:50:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="o2" />
+		<string key="ocel:type" value="Order" />
+		<event>
+			<string key="ocel:eid" value="5" />
+			<date key="time:timestamp" value="2023-01-11T08:15:00" />
+			<string key="concept:name" value="create_order" />
+			<string key="Customer" value="Agnes" />
+			<date key="start_timestamp" value="2023-01-11T08:15:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="6" />
+			<date key="time:timestamp" value="2023-01-11T08:20:00" />
+			<string key="concept:name" value="pick_item" />
+			<string key="Customer" value="Agnes" />
+			<date key="start_timestamp" value="2023-01-11T08:20:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="7" />
+			<date key="time:timestamp" value="2023-01-11T08:22:00" />
+			<string key="concept:name" value="confirm_item" />
+			<string key="Customer" value="Agnes" />
+			<date key="start_timestamp" value="2023-01-11T08:22:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="8" />
+			<date key="time:timestamp" value="2023-01-11T08:25:00" />
+			<string key="concept:name" value="pick_item" />
+			<string key="Customer" value="Agnes" />
+			<date key="start_timestamp" value="2023-01-11T08:25:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="9" />
+			<date key="time:timestamp" value="2023-01-11T08:27:00" />
+			<string key="concept:name" value="confirm_item" />
+			<string key="Customer" value="Agnes" />
+			<date key="start_timestamp" value="2023-01-11T08:27:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="10" />
+			<date key="time:timestamp" value="2023-01-11T08:29:00" />
+			<string key="concept:name" value="confirm_order" />
+			<string key="Customer" value="Agnes" />
+			<date key="start_timestamp" value="2023-01-11T08:29:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="o3" />
+		<string key="ocel:type" value="Order" />
+		<event>
+			<string key="ocel:eid" value="11" />
+			<date key="time:timestamp" value="2023-01-11T08:15:00" />
+			<string key="concept:name" value="create_order" />
+			<string key="Customer" value="Linda" />
+			<date key="start_timestamp" value="2023-01-11T08:15:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="12" />
+			<date key="time:timestamp" value="2023-01-11T08:20:00" />
+			<string key="concept:name" value="pick_item" />
+			<string key="Customer" value="Linda" />
+			<date key="start_timestamp" value="2023-01-11T08:20:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="13" />
+			<date key="time:timestamp" value="2023-01-11T08:21:00" />
+			<string key="concept:name" value="pick_item" />
+			<string key="Customer" value="Linda" />
+			<date key="start_timestamp" value="2023-01-11T08:21:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="14" />
+			<date key="time:timestamp" value="2023-01-11T08:22:00" />
+			<string key="concept:name" value="confirm_item" />
+			<string key="Customer" value="Linda" />
+			<date key="start_timestamp" value="2023-01-11T08:22:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="15" />
+			<date key="time:timestamp" value="2023-01-11T08:23:00" />
+			<string key="concept:name" value="confirm_item" />
+			<string key="Customer" value="Linda" />
+			<date key="start_timestamp" value="2023-01-11T08:23:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="16" />
+			<date key="time:timestamp" value="2023-01-11T08:29:00" />
+			<string key="concept:name" value="confirm_order" />
+			<string key="Customer" value="Linda" />
+			<date key="start_timestamp" value="2023-01-11T08:29:00" />
+		</event>
+	</trace>
+</log>
